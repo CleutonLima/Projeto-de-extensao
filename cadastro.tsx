@@ -13,20 +13,20 @@ export default function Cadastro(){
         placeholder="nome"
       />
       <TextInput style={{width: '100%', height: 40, borderWidth: 1, borderColor: '#008080', borderRadius: 5, paddingHorizontal: 10,marginBottom: 10}}
-        placeholder="Email"
+        placeholder="email"
         keyboardType="email-address"
         autoCapitalize="none"
       />
       <TextInput style={{width: '100%', height: 40, borderWidth: 1, borderColor: '#008080', borderRadius: 5, paddingHorizontal: 10,marginBottom: 10}}
-        placeholder="Password"
+        placeholder="senha"
         secureTextEntry
       />
      
 
 
-            <Link href="/login" asChild> </Link>
+            <Link href="/login" asChild> 
             <Button title = "Cadastrar"/>
-            
+            </Link>
            
         </View>
     )
