@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "projetomind",
-    "slug": "projetomind",
-    "scheme": "projetomind",
+    "name": "Dê Lingerie",
+    "slug": "ProjetoEstoque",
+    "scheme": "ProjetoEstoque",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/instaLoja.png",  
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/instaLoja.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,19 +20,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/instaLoja.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png",
-      "bundler": "metro"
+      "favicon": "./assets/instaLoja.png"
     },
     "experiments": {
       "typeRoutes": true
     },
     "plugins": [
-      "expo-router"
+     
     ]
   }
 }
